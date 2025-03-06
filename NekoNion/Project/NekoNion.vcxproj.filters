@@ -13,5 +13,48 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="ソース ファイル\GameSystem">
+      <UniqueIdentifier>{6f403bcf-bc6f-4b77-9853-d36c7a179a21}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\GameSystem\GameManager">
+      <UniqueIdentifier>{d8d83375-44b7-495c-87a9-7d0e4bf99ead}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\GameSystem\GameSetting">
+      <UniqueIdentifier>{97bb47a6-db27-490e-8c34-e712506a4925}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\GameSystem\Window">
+      <UniqueIdentifier>{940136a2-bf93-4b33-82a1-a5469c257e1d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\FPS">
+      <UniqueIdentifier>{8f7d96b4-1e97-4c0b-82fa-39764e437938}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\SourceCode\GameSystem\GameManager\GameManager.cpp">
+      <Filter>ソース ファイル\GameSystem\GameManager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SourceCode\FPS\FPS.cpp">
+      <Filter>ソース ファイル\FPS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SourceCode\GameSystem\GameSetting\GameSetting.cpp">
+      <Filter>ソース ファイル\GameSystem\GameSetting</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SourceCode\GameSystem\Window\Window.cpp">
+      <Filter>ソース ファイル\GameSystem\Window</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\SourceCode\GameSystem\GameManager\GameManager.h">
+      <Filter>ソース ファイル\GameSystem\GameManager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SourceCode\FPS\FPS.h">
+      <Filter>ソース ファイル\FPS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SourceCode\GameSystem\GameSetting\GameSetting.h">
+      <Filter>ソース ファイル\GameSystem\GameSetting</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SourceCode\GameSystem\Window\Window.h">
+      <Filter>ソース ファイル\GameSystem\Window</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
