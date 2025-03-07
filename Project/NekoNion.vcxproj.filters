@@ -28,6 +28,21 @@
     <Filter Include="ソース ファイル\FPS">
       <UniqueIdentifier>{8f7d96b4-1e97-4c0b-82fa-39764e437938}</UniqueIdentifier>
     </Filter>
+    <Filter Include="ソース ファイル\Scene">
+      <UniqueIdentifier>{bfe0c3ee-8555-41cc-934d-3759f7978a37}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Scene\Play">
+      <UniqueIdentifier>{7f2a0130-f672-4856-8daa-7c824bd16421}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Scene\SceneBase">
+      <UniqueIdentifier>{a3a9cb41-3a6f-40d5-8a8a-333077118b84}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Scene\SceneManager">
+      <UniqueIdentifier>{97a1246f-ec2d-4cb3-9f8d-05c008c5404f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Scene\Title">
+      <UniqueIdentifier>{084f0247-d811-4886-8217-2a393b20464a}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\SourceCode\GameSystem\GameManager\GameManager.cpp">
@@ -42,6 +57,18 @@
     <ClCompile Include="..\SourceCode\GameSystem\Window\Window.cpp">
       <Filter>ソース ファイル\GameSystem\Window</Filter>
     </ClCompile>
+    <ClCompile Include="..\SourceCode\Scene\Title\Title.cpp">
+      <Filter>ソース ファイル\Scene\Title</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SourceCode\Scene\SceneManager\SceneManager.cpp">
+      <Filter>ソース ファイル\Scene\SceneManager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SourceCode\Scene\SceneBase\SceneBase.cpp">
+      <Filter>ソース ファイル\Scene\SceneBase</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SourceCode\Scene\Play\Play.cpp">
+      <Filter>ソース ファイル\Scene\Play</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\SourceCode\GameSystem\GameManager\GameManager.h">
@@ -55,6 +82,18 @@
     </ClInclude>
     <ClInclude Include="..\SourceCode\GameSystem\Window\Window.h">
       <Filter>ソース ファイル\GameSystem\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SourceCode\Scene\Title\Title.h">
+      <Filter>ソース ファイル\Scene\Title</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SourceCode\Scene\SceneManager\SceneManager.h">
+      <Filter>ソース ファイル\Scene\SceneManager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SourceCode\Scene\SceneBase\SceneBase.h">
+      <Filter>ソース ファイル\Scene\SceneBase</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SourceCode\Scene\Play\Play.h">
+      <Filter>ソース ファイル\Scene\Play</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
