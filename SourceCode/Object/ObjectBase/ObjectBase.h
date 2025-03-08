@@ -26,18 +26,18 @@ namespace object
 		/// <summary>
 		/// オブジェクトの読み込み関連
 		/// </summary>
-		virtual void LoadObject() = 0;
+		virtual void LoadObj() = 0;
 
 		/// <summary>
 		/// オブジェクトの更新処理
 		/// </summary>
 		/// <param name="deltaTime"デルタタイム></param>
-		virtual void  Update(const float deltatime) = 0;
+		virtual void  UpdateObj(const float deltatime) = 0;
 
 		/// <summary>
 		/// オブジェクトの描画
 		/// </summary>
-		virtual void  Draw() = 0;
+		virtual void  DrawObj() = 0;
 
 		/// <summary>
 		/// 移動処理

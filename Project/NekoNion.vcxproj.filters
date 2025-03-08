@@ -49,6 +49,9 @@
     <Filter Include="ソース ファイル\Object\ObjectBase">
       <UniqueIdentifier>{7eb8215a-6147-4a06-baf1-bf09dd1db18a}</UniqueIdentifier>
     </Filter>
+    <Filter Include="ソース ファイル\Object\ObjectManager">
+      <UniqueIdentifier>{6647d21b-548a-4155-a0fc-74f9faff94a9}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\SourceCode\GameSystem\GameManager\GameManager.cpp">
@@ -78,6 +81,9 @@
     <ClCompile Include="..\SourceCode\Object\ObjectBase\ObjectBase.cpp">
       <Filter>ソース ファイル\Object\ObjectBase</Filter>
     </ClCompile>
+    <ClCompile Include="..\SourceCode\Object\ObjectManager\ObjectManager.cpp">
+      <Filter>ソース ファイル\Object\ObjectManager</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\SourceCode\GameSystem\GameManager\GameManager.h">
@@ -106,6 +112,9 @@
     </ClInclude>
     <ClInclude Include="..\SourceCode\Object\ObjectBase\ObjectBase.h">
       <Filter>ソース ファイル\Object\ObjectBase</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SourceCode\Object\ObjectManager\ObjectManager.h">
+      <Filter>ソース ファイル\Object\ObjectManager</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
